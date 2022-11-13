@@ -1,7 +1,7 @@
 /* global console, document, Excel, Office */
 
-const AUTH_KEY = 'Bearer ***KEY HERE***';
-const ORGANIZATION = '***ORG HERE***'
+const AUTH_KEY = 'Bearer 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';
+const ORGANIZATION = 'McGuire Data Science Analytics'
 
 Office.onReady(info => {
     if (info.host === Office.HostType.Excel) {
